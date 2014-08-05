@@ -1,0 +1,118 @@
+/* Would normally use normalize.css for resets */
+ 
+/* Resets */ 
+
+html, body {
+	height: 100%; 
+	padding: 0;
+    margin: 0;  }
+	
+html {
+    font-size: 100%; }	
+	
+html,
+button,
+input,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif; }
+    
+a {
+	text-decoration: none;
+	color: #bdbdbd; }    	
+	
+a:hover {
+	text-decoration: underline; }	
+   
+/* Clearfix: contain floats */ 
+   
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; }
+
+.clearfix:after {
+    clear: both; }    
+	
+/* Layout */	
+	
+.wrapper {
+	margin: 0 auto;
+	width: 960px; }	
+  
+.page-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	width: 960px;
+	background-color: #efefef;
+	border: solid 1px #bdbdbd;
+	padding: 15px 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;   }      
+	
+/* Header */	
+
+.header .main-nav {
+	border-top: solid 1px #bdbdbd;
+	border-bottom: solid 1px #bdbdbd;
+	margin: 15px -15px 0; }
+
+.header .main-nav ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 0 0 25px;
+	margin: 8px 0; }
+
+.header .main-nav ul li {
+	float: left;
+	margin: 0 80px 0 0; }
+
+.header .main-nav ul li a {
+	color: #bdbdbd; }
+	
+/* Secondary Navigation */	
+
+.main .secondary-nav {
+	float: left;
+	width: 210px;
+	border-right: solid 1px #bdbdbd; }
+	
+.main .secondary-nav > ul {
+	list-style-type: none;
+	padding: 0; }	
+	
+.main .secondary-nav ul li ul {
+	margin: 0 0 0 0; }	
+	
+.hide {
+	display: none; }	
+	
+.show {
+	display: block; }	
+
+/* Main content area */	
+	
+.content-area {
+	float: left;
+	height: 100%;
+	padding: 0 20px;
+	color: #8d8b8b; }	
+	
+/* Footer */	
+
+.footer {
+	border-top: solid 1px #bdbdbd;
+	padding: 15px 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box; }
+
+.footer p {
+	margin: 0;
+	color: #8d8b8b; }
+  
+.footer, .push {
+	height: 4em; }  
